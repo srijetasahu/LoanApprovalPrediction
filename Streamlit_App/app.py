@@ -30,7 +30,7 @@ st.markdown("### IBM PBEL Virtual Training Project")
 st.divider()
 
 # Load model
-model = pickle.load(open('../Model/loan_model.pkl', 'rb'))
+model = pickle.load(open('Model/loan_model.pkl', 'rb'))
 
 # Two columns layout
 col1, col2 = st.columns(2)
